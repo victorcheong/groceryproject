@@ -2,10 +2,10 @@
   <div class="headerStyle">
     <header>
         <h1>{{ msg }}</h1>
-        <ul>
-          <li><router-link to='/' exact>List</router-link></li>
-          <li><router-link to='/add' exact>Add Item</router-link></li>
-        </ul>
+        
+          <router-link to='/' exact>List</router-link>
+          <router-link to='/add' exact>Add Item</router-link>
+        
     </header>
   </div>
 </template>
